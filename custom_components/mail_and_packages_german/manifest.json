@@ -1,0 +1,17 @@
+{
+  "domain": "mail_and_packages_german",
+  "name": "Mail and Packages (German Fork)",
+   "documentation": "https://github.com/klassm/Home-Assistant-Mail-And-Packages",
+   "issue_tracker": "https://github.com/klassm/Home-Assistant-Mail-And-Packages/issues",
+  "dependencies": [],
+   "codeowners": [
+     "@klassm"
+  ],
+  "config_flow": true,
+  "requirements": [
+    "imageio>=2.9.0",
+    "python-resize-image>=1.1.19"
+  ],
+  "iot_class": "cloud_polling",
+  "version": "1.0.0"
+}

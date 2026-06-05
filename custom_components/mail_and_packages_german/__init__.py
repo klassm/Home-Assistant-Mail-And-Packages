@@ -173,7 +173,7 @@ async def async_migrate_entry(hass, config_entry):
             _LOGGER.warning("Missing configuration data: %s", CONF_AMAZON_FWDS)
 
         # Force path change
-        updated_config[CONF_PATH] = "images/mail_and_packages/"
+        updated_config[CONF_PATH] = "images/mail_and_packages_german/"
 
         # Always on image security
         if not config_entry.data[CONF_IMAGE_SECURITY]:
@@ -194,7 +194,7 @@ async def async_migrate_entry(hass, config_entry):
         updated_config = config_entry.data.copy()
 
         # Force path change
-        updated_config[CONF_PATH] = "images/mail_and_packages/"
+        updated_config[CONF_PATH] = "images/mail_and_packages_german/"
 
         # Always on image security
         if not config_entry.data[CONF_IMAGE_SECURITY]:
